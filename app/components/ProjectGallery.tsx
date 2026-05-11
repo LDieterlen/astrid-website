@@ -4,45 +4,54 @@ import { GalleryImage } from "@/app/data/projects";
 interface ProjectGalleryProps {
   images: GalleryImage[];
   legend?: string;
+  columns?: number;
+  rowHeight?: string;
 }
 
-export function ProjectGallery({ images, legend }: ProjectGalleryProps) {
+export function ProjectGallery({
+  images,
+  legend,
+  columns = 4,
+  rowHeight = "280px",
+}: ProjectGalleryProps) {
   if (images.length === 0) {
     return null;
   }
 
-  const [featuredImage, ...thumbnailImages] = images;
-
   return (
-    <section className="project-gallery" aria-label="Galerie du projet">
-      <figure className="project-gallery__featured">
-        <Image
-          src={featuredImage.src}
-          alt={featuredImage.alt ?? "Image principale du projet"}
-          fill
-          priority
-          sizes="(max-width: 680px) calc(100vw - 1.4rem), 1080px"
-          className="project-gallery__image"
-        />
-      </figure>
+    <section className="mt-[0.2rem]" aria-label="Galerie du projet">
+      <div
+        className="grid gap-[0.55rem] p-[0.55rem] bg-white max-[680px]:flex max-[680px]:flex-col max-[680px]:p-[0.45rem] max-[680px]:gap-[0.45rem]"
+        style={{
+          gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
+          gridAutoRows: rowHeight,
+        }}
+      >
+        {images.map((image, index) => (
+          <figure
+            key={`${image.src}-${index}`}
+            className="relative overflow-hidden bg-[var(--color-bg-soft)] max-[680px]:aspect-[3/4] max-[680px]:w-full"
+            style={{
+              gridRow: `${image.row} / span ${image.rowSpan ?? 1}`,
+              gridColumn: `${image.column} / span ${image.colSpan ?? 1}`,
+            }}
+          >
+            <Image
+              src={image.src}
+              alt={image.alt ?? `Image ${index + 1} du projet`}
+              fill
+              sizes="(max-width: 680px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </figure>
+        ))}
+      </div>
 
-      {thumbnailImages.length > 0 && (
-        <div className="project-gallery__thumbs">
-          {thumbnailImages.map((image, index) => (
-            <figure className="project-gallery__thumb" key={`${image.src}-${index}`}>
-              <Image
-                src={image.src}
-                alt={image.alt ?? `Image ${index + 2} du projet`}
-                fill
-                sizes="(max-width: 680px) calc((100vw - 2rem) / 2), calc((100vw - 4rem) / 4)"
-                className="project-gallery__image"
-              />
-            </figure>
-          ))}
-        </div>
+      {legend && (
+        <p className="mt-[0.25rem] text-[0.78rem] leading-[1.4] text-center text-[var(--color-text-tertiary)]">
+          {legend}
+        </p>
       )}
-
-      {legend && <p className="project-gallery__legend">{legend}</p>}
     </section>
   );
 }

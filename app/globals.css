@@ -465,49 +465,7 @@ svg {
   margin-top: 0.2rem;
 }
 
-.project-gallery {
-  margin-top: 0.2rem;
-  display: grid;
-  gap: 0.55rem;
-  padding: 0.55rem;
-  background: #ffffff;
-}
 
-.project-gallery__featured,
-.project-gallery__thumb {
-  position: relative;
-  overflow: hidden;
-  background-color: var(--color-bg-soft);
-}
-
-.project-gallery__featured {
-  aspect-ratio: 16 / 12;
-}
-
-.project-gallery__thumbs {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.55rem;
-}
-
-.project-gallery__thumb {
-  aspect-ratio: 1 / 1;
-}
-
-.project-gallery__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.project-gallery__legend {
-  margin-top: 0.25rem;
-  font-size: 0.78rem;
-  line-height: 1.4;
-  text-align: center;
-  color: var(--color-text-tertiary);
-}
 
 .tag-list {
   display: flex;
@@ -567,13 +525,5 @@ svg {
     padding: 1.25rem;
   }
 
-  .project-gallery {
-    padding: 0.45rem;
-    gap: 0.45rem;
-  }
 
-  .project-gallery__thumbs {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.45rem;
-  }
 }
