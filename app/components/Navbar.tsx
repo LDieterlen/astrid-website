@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import fr from "@/resource/translations/fr.json";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -10,14 +11,17 @@ export default function Navbar() {
     <nav className="site-nav">
       <div className="site-nav__inner">
         <Link href="/" className="site-brand">
-          Astrid Dieterlen
+          {fr.navbar.brand}
         </Link>
         <div className="site-nav__links">
           <Link href="/" className={`nav-link${pathname === "/" ? " is-active" : ""}`}>
-            Projets
+            {fr.navbar.projects}
           </Link>
           <Link href="/contact" className={`nav-link${pathname === "/contact" ? " is-active" : ""}`}>
-            Contact
+            {fr.navbar.contact}
+          </Link>
+          <Link href="/about" className={`nav-link${pathname === "/about" ? " is-active" : ""}`}>
+            {fr.navbar.about}
           </Link>
         </div>
       </div>
