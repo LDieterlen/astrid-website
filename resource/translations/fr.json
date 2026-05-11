@@ -1,24 +1,28 @@
 {
-  "metadata": {
-    "title": "Astrid Dieterlen — Designer",
-    "description": ""
-  },
-  "navbar": {
-    "brand": "Astrid Dieterlen",
-    "projects": "Projets",
-    "contact": "Contact",
-    "about": "A propos"
-  },
-  "contact": {
-  },
-  "projectPage": {
-  },
-  "projects": {
-    "modelec": {
-      "title": "Collection Empreintes",
-      "subtitle": "Pour Modelec, fabricant français d'interrupteurs en laiton",
-      "description": "Pensée par les architectes Bruno Borrione et Astrid Dieterlen, la collection Empreintes a comme maître mot « la justesse ». Une collection en laiton pleine matière qui se décline en 5 séries : Plan, Volume, Angle, Point, Ligne et 6 finitions. Un design intemporel qui allie savoir-faire artisanal de la matière et exigence technique poussé par l'innovation d'un nouveau mécanisme : le push va-et-vient 230V.",
-      "legend": "Extrait du site internet Modelec - En collaboration avec Bruno Borrione"
+    "metadata": {
+        "title": "Astrid Dieterlen — Designer",
+        "description": ""
+    },
+    "navbar": {
+        "brand": "Astrid Dieterlen",
+        "projects": "Projets",
+        "contact": "Contact",
+        "about": "A propos"
+    },
+    "contact": {},
+    "projectPage": {},
+    "projects": {
+        "modelec": {
+            "title": "Collection Empreintes",
+            "subtitle": "Pour Modelec, fabricant français d'interrupteurs en laiton",
+            "description": "Pensée par les architectes Bruno Borrione et Astrid Dieterlen, la collection Empreintes a comme maître mot « la justesse ». Une collection en laiton pleine matière qui se décline en 5 séries : Plan, Volume, Angle, Point, Ligne et 6 finitions. Un design intemporel qui allie savoir-faire artisanal de la matière et exigence technique poussé par l'innovation d'un nouveau mécanisme : le push va-et-vient 230V.",
+            "legend": "Extrait du site internet Modelec - En collaboration avec Bruno Borrione"
+        },
+        "arte": {
+            "title": "TODO",
+            "subtitle": "TODO",
+            "description": "TODO",
+            "legend": "TODO"
+        }
     }
-  }
 }
