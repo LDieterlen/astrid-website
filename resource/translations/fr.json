@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "title": "Astrid Dieterlen — Designer",
+    "description": ""
+  },
+  "navbar": {
+    "brand": "Astrid Dieterlen",
+    "projects": "Projets",
+    "contact": "Contact",
+    "about": "A propos"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Je suis un designer specialise dans la creation de travaux clairs et utiles en identite visuelle, produits numeriques et edition. Avec une passion pour le minimalisme et le souci du detail, j'aide les marques a communiquer avec clarte grace a un design reflechi.",
+    "cta": "N'hesitez pas a me contacter pour des collaborations, des missions freelance, ou simplement pour dire bonjour.",
+    "emailLabel": "Email",
+    "emailValue": "hello@designer.com",
+    "locationLabel": "Localisation",
+    "locationValue": "Paris, France"
+  },
+  "projectPage": {
+    "backToProjects": "Retour aux projets",
+    "category": "Categorie",
+    "year": "Annee",
+    "client": "Client",
+    "tools": "Outils"
+  },
+  "projects": {
+    "modelec": {
+      "title": "Modelec"
+    }
+  }
+}

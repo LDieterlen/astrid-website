@@ -1,0 +1,58 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/astriddieterlen1/Desktop/PRO/Dossier SITE/Document fonts/AdobeFnt22.lst
+FileLength:1092
+FileModTime:799852299
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DINAlternate-Bold
+FamilyName:DIN Alternate
+StyleName:Bold
+MenuName:DIN Alternate
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:DIN Alternate Bold
+WritingScript:Roman
+OutlineFileName:/Users/astriddieterlen1/Desktop/PRO/Dossier SITE/Document fonts/DIN Alternate Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76716
+FileModTime:540695256
+NameArray:0,Mac,18,DIN Alternate Bold
+NameArray:0,Mac,4,DIN Alternate Bold
+NameArray:0,Win,1,DIN Alternate
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DIN-Regular
+FamilyName:DIN
+StyleName:Regular
+MenuName:DIN
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN-Regular
+WritingScript:Roman
+OutlineFileName:/Users/astriddieterlen1/Desktop/PRO/Dossier SITE/Document fonts/ufonts.com_din-regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:44888
+FileModTime:641301780
+NameArray:0,Mac,4,DIN-Regular
+NameArray:0,Win,1,DIN
+%EndFont
+
