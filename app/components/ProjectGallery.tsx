@@ -3,9 +3,10 @@ import { GalleryImage } from "@/app/data/projects";
 
 interface ProjectGalleryProps {
   images: GalleryImage[];
+  legend?: string;
 }
 
-export function ProjectGallery({ images }: ProjectGalleryProps) {
+export function ProjectGallery({ images, legend }: ProjectGalleryProps) {
   if (images.length === 0) {
     return null;
   }
@@ -40,6 +41,8 @@ export function ProjectGallery({ images }: ProjectGalleryProps) {
           ))}
         </div>
       )}
+
+      {legend && <p className="project-gallery__legend">{legend}</p>}
     </section>
   );
 }

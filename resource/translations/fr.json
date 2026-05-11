@@ -10,24 +10,15 @@
     "about": "A propos"
   },
   "contact": {
-    "title": "Contact",
-    "intro": "Je suis un designer specialise dans la creation de travaux clairs et utiles en identite visuelle, produits numeriques et edition. Avec une passion pour le minimalisme et le souci du detail, j'aide les marques a communiquer avec clarte grace a un design reflechi.",
-    "cta": "N'hesitez pas a me contacter pour des collaborations, des missions freelance, ou simplement pour dire bonjour.",
-    "emailLabel": "Email",
-    "emailValue": "hello@designer.com",
-    "locationLabel": "Localisation",
-    "locationValue": "Paris, France"
   },
   "projectPage": {
-    "backToProjects": "Retour aux projets",
-    "category": "Categorie",
-    "year": "Annee",
-    "client": "Client",
-    "tools": "Outils"
   },
   "projects": {
     "modelec": {
-      "title": "Modelec"
+      "title": "Collection Empreintes",
+      "subtitle": "Pour Modelec, fabricant français d'interrupteurs en laiton",
+      "description": "Pensée par les architectes Bruno Borrione et Astrid Dieterlen, la collection Empreintes a comme maître mot « la justesse ». Une collection en laiton pleine matière qui se décline en 5 séries : Plan, Volume, Angle, Point, Ligne et 6 finitions. Un design intemporel qui allie savoir-faire artisanal de la matière et exigence technique poussé par l'innovation d'un nouveau mécanisme : le push va-et-vient 230V.",
+      "legend": "Extrait du site internet Modelec - En collaboration avec Bruno Borrione"
     }
   }
 }

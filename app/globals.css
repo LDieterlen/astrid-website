@@ -124,7 +124,8 @@ svg {
 
 .site-brand {
   font-family: var(--font-display);
-  font-size: 1.22rem;
+  font-size: 1.5rem;
+  /* font-size: 1.22rem; */
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -316,6 +317,29 @@ svg {
   padding-top: 1rem;
 }
 
+.project-page .page-heading {
+  text-align: center;
+}
+
+.project-page .page-title {
+  font-size: clamp(1.35rem, 1.8vw, 1.85rem);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project-page .page-subtitle {
+  text-align: center;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.project-page .page-description {
+  margin-top: 0.8rem;
+  text-align: justify;
+  max-width: 100%;
+  color: var(--color-text-secondary);
+}
+
 .project-page .project-panel {
   background: transparent;
   box-shadow: none;
@@ -447,7 +471,6 @@ svg {
   gap: 0.55rem;
   padding: 0.55rem;
   background: #ffffff;
-  border: 1px solid rgba(20, 20, 20, 0.1);
 }
 
 .project-gallery__featured,
@@ -476,6 +499,14 @@ svg {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.project-gallery__legend {
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--color-text-tertiary);
 }
 
 .tag-list {

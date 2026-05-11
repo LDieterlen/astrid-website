@@ -14,6 +14,8 @@ export interface Project {
   subtitle: string;
   image: string;
   images: GalleryImage[];
+  description?: string;
+  legend?: string;
 }
 
 const projectTranslations = fr.projects;
@@ -22,7 +24,9 @@ export const projects: Project[] = [
   {
     id: "modelec",
     title: projectTranslations["modelec"].title,
-    subtitle: "Interieur et objets sur mesure",
+    subtitle: projectTranslations["modelec"].subtitle,
+    description: projectTranslations["modelec"].description,
+    legend: projectTranslations["modelec"].legend,
     image: "/images/projects/MODELEC/0.jpg",
     images: [
       {

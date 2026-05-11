@@ -21,17 +21,13 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <section className="page project-page">
-      <Link href="/" className="back-link">
-        <span>←</span>
-        <span>Retour aux projets</span>
-      </Link>
-
       <header className="page-heading">
         <h1 className="page-title">{project.title}</h1>
         <p className="page-subtitle">{project.subtitle}</p>
+        {project.description && <p className="page-description">{project.description}</p>}
       </header>
 
-      <ProjectGallery images={project.images} />
+      <ProjectGallery images={project.images} legend={project.legend} />
     </section>
   );
 }
