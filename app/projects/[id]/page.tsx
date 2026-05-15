@@ -27,7 +27,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         {project.description && <p className="page-description">{project.description}</p>}
       </header>
 
-      <ProjectGallery images={project.images} legend={project.legend} />
+      <ProjectGallery images={project.images} legend={project.legend} columns={project.columns} />
     </section>
   );
 }

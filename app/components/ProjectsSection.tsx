@@ -1,12 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
-import { projects } from "@/app/data/projects";
+import { projects, projectsDisplayOrder } from "@/app/data/projects";
 
 export function ProjectsSection() {
+  const orderedProjects = projectsDisplayOrder
+    .map((id) => projects.find((p) => p.id === id))
+    .filter((p) => p !== undefined);
+
   return (
     <section className="w-full py-8 pb-20">
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
+        {orderedProjects.map((project) => (
           <Link
             key={project.id}
             href={`/projects/${project.id}`}

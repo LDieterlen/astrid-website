@@ -10,6 +10,35 @@
         "about": "A propos"
     },
     "contact": {},
+    "about": {
+        "sectionTitle": "Biographie",
+        "bio": [
+            "Après une formation de design à l'école supérieure de design et de métier d'art d'Auvergne à Moulins, Astrid Dieterlen intègre l'école Boulle en 2009. Elle en sort diplômée en 2011 dans la section design produit. Elle complète par la suite sa formation par un master II en design espace et scénographie à l'École Normale Supérieure de Cachan.",
+            "À sa sortie de l'ENS, elle intègre le bureau d'études de Dassault Aviation. Période pendant laquelle elle participera à la conception du pavillon de la marque au salon de l'aviation du Bourget, ainsi qu'au design intérieur des cabines des appareils Falcon 7x, 2000 et 900.",
+            "En 2013, elle intègre l'agence de Philippe Starck et participe à la réalisation d'hôtels et de restaurants en tant que styliste. C'est à cette époque qu'elle fait la connaissance de Bruno Borrione qui gère, pour Starck, la maîtrise d'œuvre des projets architecturaux. Elle poursuit et consolide son expérience dans l'architecture d'intérieur en collaboration avec le cabinet Vincent Bastie, au titre de cheffe de projet en architecture d'intérieur.",
+            "En 2017, Astrid Dieterlen rejoint l'équipe de Bruno Borrione où, en parallèle de la supervision des projets architecturaux de l'agence, elle est en charge du design et du développement de collections luminaires et mobilier réalisées en sur-mesure ou dans le cadre de collaboration avec des éditeurs. Elle devient associée de Bruno Borrione deux ans plus tard.",
+            "Soucieuse de varier ses acquis professionnels, elle collabore en 2023 avec SPCEA-PM, entreprise spécialisée dans le pilotage de projets et du procurement hôtelier. Tout en gardant son activité de designer, elle acquière des compétences complémentaires, notamment la supervision logistique et budgétaire de projets haut de gamme."
+        ],
+        "cvLink": "Télécharger le curriculum vitae",
+        "cvFile": "/images/ARCHI INT/COMM/DIETERLEN - Curriculum Vitae.pdf",
+        "portraitAlt": "Portrait d'Astrid Dieterlen",
+        "sections": [
+            {
+                "title": "Architecture d'intérieur",
+                "subtitle": "pour l'agence Borrione SARL",
+                "images": [
+                    { "src": "/images/ARCHI INT/01-Le-Club-HD.jpg", "alt": "Le Club" },
+                    { "src": "/images/ARCHI INT/2-20230219_FOUQUETS_DUBAI_Salle-Piano_0099-MAIN-1500x1000.jpg", "alt": "Fouquet's Dubai" },
+                    { "src": "/images/ARCHI INT/3-VILLA_DES_PRES_25217_-1500x1000.jpg", "alt": "Villa des Prés" },
+                    { "src": "/images/ARCHI INT/B0000166-830x1000.jpg", "alt": "Projet Borrione" },
+                    { "src": "/images/ARCHI INT/LePavillon_CôtéTerrasse.jpg", "alt": "Le Pavillon côté terrasse" },
+                    { "src": "/images/ARCHI INT/hotel_boutet_1.jpg", "alt": "Hôtel Boutet" },
+                    { "src": "/images/ARCHI INT/1A9365803_2-1315x1000.jpg", "alt": "Projet Borrione" },
+                    { "src": "/images/ARCHI INT/01-Façade_Nuit_Paysage.jpg", "alt": "Façade nuit" }
+                ]
+            }
+        ]
+    },
     "projectPage": {},
     "projects": {
         "modelec": {
@@ -19,10 +48,70 @@
             "legend": "Extrait du site internet Modelec - En collaboration avec Bruno Borrione"
         },
         "arte": {
-            "title": "TODO",
-            "subtitle": "TODO",
-            "description": "TODO",
-            "legend": "TODO"
+            "title": "Applique Stripe",
+            "subtitle": "Pour Arte Veneziana, fabricant italien de mobilier et luminaires en verre",
+            "description": "« The French Touch » est en effet une exploration des possibilités offertes par le verre, menée par quatre designers aux styles différents. Leur point commun ? Leur origine géographique : Paris, l'une des capitales mondiales du design d'intérieur et berceau de la vision artistique la plus avant-gardiste. Une manière de rendre hommage à une nation qui contribue tant à la culture du beau design, une manière de comprendre les orientations du monde de la décoration contemporaine. ",
+            "legend": "Extrait du site internet Arte Veneziana - En collaboration avec Bruno Borrione"
+        },
+        "bacon": {
+            "title": "Suspension et applique Bacon",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton",
+            "description": "Bacon est une suspension conique simple et racée. Elle diffuse et répartit harmonieusement la luminosité avec une lumière douce et précise. Bacon, version contemporaine et sans concession de la torche murale d'antan, associe minimalisme et fonctionnalité. Disponible en différents coloris, elle est attachante par sa nature caméléon qui permet de l'imaginer dans la chambre, le couloir, le salon, l'entrée ou tout autre lieu de votre choix.",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "blondel": {
+            "title": "Applique Blondel",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Une écriture élégante pour cette applique qui allie la sophistication du métal satiné à la sensualité du verre opalin. Blondel occupe l'espace de lumière en deux faisceaux de lumière distincts révélant une ambiance lumineuse diaphane. ",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "burnett": {
+            "title": "Spot Burnett",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Sous son cône de métal, la lumière s'invite. Tranchante comme une lame ou nichée comme une braise, le spot Burnett génère une lumière chaude et puissante en tous lieux. ",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "fragonard": {
+            "title": "Applique à tableau Fragonard",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Fragonard est une applique à tableau qui magnifie les qualités plastiques du laiton. Avec ses courbes et ses arêtes douces, elle scintille sous la lumière. Son large réflecteur permet au tableau de bénéficier d'un éclairage maximum",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "garth": {
+            "title": "Appliques Dieter & Garth / Plafonniers Adams et Jefferson",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Telle une lampe de nuit aux allures modernes avec son bras en cuivre qui invite à la promenade, Dieter est une applique sophistiquée mais pour autant dépouillée d'artifice. L'applique Adams a un petit air marin qui vous invite au voyage. Pour autant, elle peut s'inscrire dans toutes les coursives de votre vie et peut s'adapter à toutes les atmosphères avec sa double opaline. Garth se distingue des spots encastrés trop vus et sans originalité. Bicolor, il est design sans être prétentieux. Jefferson est une alternative heureuse aux spots des années 80. Grâce à son globe d'opalin clair, la lumière se répand avec générosité dans l'ensemble de la pièce. ",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "gibbon": {
+            "title": "Plafonniers Gibbon",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Gibbon diffuse une lumière douce dans l'ensemble de votre pièce. Grâce à un réflecteur qui laisse filtrer la luminosité, il installe une ambiance feutrée. Gibbon existe en solo ou en quadri-parties pour les espaces plus vastes.",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "greuze": {
+            "title": "Applique Greuze",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Radicalement simple, Greuze est une applique qui met en valeur le tableau qui l'accompagne. Elle est aussi un bel objet de décoration qui s'inscrira naturellement dans tous les espaces.",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "johnson": {
+            "title": "Lampe et lampadaire Johnson",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Simple tube en laiton surmonté d'une succession de disques, le lampadaire Johnson est d'une élégance intemporelle. Objet de décoration raffiné, il est également une source de lumière efficace qui peut s'inscrire dans de nombreux intérieurs classiques ou design. La lampe Johnson allie sobriété et classicisme. Elle sera lampe de chevet, lampe de bureau ou point lumineux dans votre séjour. ",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
+        },
+        "promemoria": {
+            "title": "Chaise Momento Mori",
+            "subtitle": "Pour Promemoria à l'occasion de l'exposition « Bilou Bilou, un état de siège parisien »",
+            "description": "La Chaise « Memento Mori » nous raconte que, bien souvent, Éros n'est pas loin de Thanatos. Dans sa livrée sage et stricte, il lui fallait goûter au parfum de l'interdit ; faire tourner les têtes avant qu'elles ne tombent. Si son assise évoque les plaisirs, l'ombre funeste du dossier nous rappelle, qu'attendant son heure, la grande faucheuse veille. Le tissu créé par Pascale Risbourg arrive à propos : des bosquets de Versailles à l'Institut culturel italien, il n'y a qu'un pas. C'est Giacomo Casanova qui accueille le divin marquis ; Garibaldi qui enlace la Marianne de Delacroix ; Pasolini qui dine avec Genet. ",
+            "legend": "Extrait du catalogue d'exposition « Bilou Bilou, un état de siège parisien »  - En collaboration avec Bruno Borrione"
+        },
+        "washington": {
+            "title": "Applique Washington",
+            "subtitle": "Pour Gau Lighting, fabricant français de luminaires en laiton,",
+            "description": "Inspirée par le mouvement artistique des constructivistes russes, l'applique Washington célèbre le jeu savant des lignes épurées, des volumes géométriques et des reflets de lumière",
+            "legend": "Extrait du catalogue Gau Lighting - En collaboration avec Bruno Borrione"
         }
     }
 }

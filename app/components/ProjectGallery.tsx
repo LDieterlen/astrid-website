@@ -30,7 +30,7 @@ export function ProjectGallery({
         {images.map((image, index) => (
           <figure
             key={`${image.src}-${index}`}
-            className="relative overflow-hidden bg-[var(--color-bg-soft)] max-[680px]:aspect-[3/4] max-[680px]:w-full"
+            className="relative overflow-hidden bg-white max-[680px]:aspect-[3/4] max-[680px]:w-full"
             style={{
               gridRow: `${image.row} / span ${image.rowSpan ?? 1}`,
               gridColumn: `${image.column} / span ${image.colSpan ?? 1}`,
